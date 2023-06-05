@@ -1,8 +1,9 @@
 import React, { FC } from 'react';
 import { ButtonProps } from './button.interface';
+import { ButtonStyles } from './button.styles';
 
 export const Button: React.FC<ButtonProps> = ({ children, className, ...props }) => (
-  <button {...props} className={className}>
+  <ButtonStyles {...props} className={className}>
     {children}
-  </button>
+  </ButtonStyles>
 );

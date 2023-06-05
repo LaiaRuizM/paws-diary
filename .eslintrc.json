@@ -1,7 +1,7 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "prettier", "security", "jsx-a11y"],
+  "plugins": ["@typescript-eslint", "prettier", "jsx-a11y"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -18,7 +18,7 @@
   },
   "env": {
     "browser": true,
-    "node":true
+    "node": true
   },
   "overrides": [
     {
