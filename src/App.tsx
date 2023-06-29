@@ -1,7 +1,13 @@
 import { Button, ButtonProps } from './components/button';
+import {Header} from './components/header'
 
 function App() {
-  return <Button>Hola caracola</Button>;
+  return( 
+    <>
+  <Button>Hola caracola</Button>
+  <Header></Header>
+  </>
+  );
 }
 
 export default App;
