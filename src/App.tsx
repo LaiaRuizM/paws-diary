@@ -1,21 +1,16 @@
-import './App.css';
+import { Button, ButtonProps } from './components/button';
+import {Header} from './components/header'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hola</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return( 
+    <>
+  <Button>Hola caracola</Button>
+  <Header></Header>
+  </>
   );
 }
 
 export default App;
+
+//? Error: Type '{}' is missing the following properties from type 'ButtonProps': className, children -> typescript te va diciendo lo que se le tiene que pasar. Si ponemos en interfaces className? esta ? quiere decir que es opcional y así no te obliga a poner esta prop y te fallará.
+//? El children sería poniendo entre el  return <Button></Button>; un hola por ejemplo:  return <Button>Hola</Button>;
