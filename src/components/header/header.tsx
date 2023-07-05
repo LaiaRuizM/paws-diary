@@ -1,16 +1,16 @@
-// import logoPaws from "../public/PawsDiaryLogo4.png";
+import logoPaws from "../../images/logo.png";
 import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <>
       <header className="header">
         <Link to={"/"}>
-          {/* <img
+          <img
             className="header__img"
-            // src={logoPaws}
+            src={logoPaws}
             alt="Amazon's logo"
             title="Amazon's logo"
-          /> */}
+          />
         </Link>
       </header>
       <nav className="nav">
