@@ -1,12 +1,13 @@
-import { Button, ButtonProps } from './components/button';
-import {Header} from './components/header'
+import { Button, ButtonProps } from "./components/button";
+import { Header, HeaderProps } from "./components/header";
 
 function App() {
-  return( 
+  return (
     <>
-  <Button>Hola caracola</Button>
-  <Header></Header>
-  </>
+      <section>
+        <Header> </Header>
+      </section>
+    </>
   );
 }
 
