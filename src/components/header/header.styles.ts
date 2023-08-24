@@ -6,8 +6,17 @@ export const HeaderStyled = styled.header`
     background-color: #fd687b;
     color: white;
   }
-  .divTest {
-    font-size: 50px;
-    color: pink;
+  .header{
+    width: 100vw;
+    height: 150px; 
+    display: flex;
+    justify-content: space-around;
+      &__img{
+      width: 150px;
+      height: 150px; 
+      }
+  }
+ .nav__link {
+    font-size: 20px;
   }
 `;
