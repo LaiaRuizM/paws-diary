@@ -17,6 +17,7 @@ export const HeaderStyled = styled.header`
       }
   }
  .nav__link {
-    font-size: 20px;
+    font-size: 15px;
+    border-radius: 20%;
   }
 `;
