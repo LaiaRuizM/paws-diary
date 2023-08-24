@@ -1,6 +1,6 @@
-import { FC } from 'react';
-import { ButtonProps } from './button.interface';
-import { ButtonStyled } from './button.styles';
+import { FC } from "react";
+import { ButtonProps } from "./button.interface";
+import { ButtonStyled } from "./button.styles";
 
 export const Button: FC<ButtonProps> = ({ children, className, ...props }) => {
   return (

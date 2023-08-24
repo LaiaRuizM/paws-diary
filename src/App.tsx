@@ -1,4 +1,5 @@
-import { Button, ButtonProps } from './components/button';
+import { Button, ButtonProps } from "./components/button";
+import { Header } from "./components/header";
 
 function App() {
   return <Button>**</Button>;
