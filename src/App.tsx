@@ -1,7 +1,7 @@
 import { Button, ButtonProps } from './components/button';
 
 function App() {
-  return <Button>Hola caracola</Button>;
+  return <Button>**</Button>;
 }
 
 export default App;

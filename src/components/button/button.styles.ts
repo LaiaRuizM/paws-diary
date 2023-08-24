@@ -7,7 +7,7 @@ export const ButtonStyled = styled.button`
     color: white;
   }
   .divTest {
-    font-size: 50px;
+    font-size: 20px;
     color: pink;
   }
 `;

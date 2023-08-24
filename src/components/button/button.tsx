@@ -6,7 +6,7 @@ export const Button: FC<ButtonProps> = ({ children, className, ...props }) => {
   return (
     <ButtonStyled {...props} className={className}>
       {children}
-      <div className="divTest">Testing </div>
+      <div className="divTest">Button</div>
     </ButtonStyled>
   );
 };
